@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='Gnb'>
+        <p className='Home_text'>Soyeong Min</p>
+        <div className='BtnGroup'>
+          <button className='Btn_text'>resume</button>
+          <button className='Btn_text'>contact</button>
+        </div>
+      </div>
     </div>
   );
 }
