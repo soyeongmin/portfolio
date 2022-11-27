@@ -1,6 +1,6 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import 'animate.css';
 
 function App() {
   return (
@@ -8,10 +8,11 @@ function App() {
       <div className='Gnb'>
         <p className='Home_text'>Soyeong Min</p>
         <div className='BtnGroup'>
-          <button className='Btn_text'>resume</button>
-          <button className='Btn_text'>contact</button>
+          <button onClick={() => alert("I'm resume")}>resume</button>
+          <button>contact</button>
         </div>
       </div>
+      <div className='Square' onClick={()=> alert("I'm scoop!")}> Scoop</div>
     </div>
   );
 }

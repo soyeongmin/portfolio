@@ -1,28 +1,70 @@
+html {
+  background-color: #212121;
+}
+
 .App {
   font-family: 'inter', sans-serif;
+  color: #e5e5e5;
 }
 
 .Gnb {
-  width: 90vw;
-  margin: 40px;
-  position: absolute;
+  padding: 12px 30px 12px 30px;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .BtnGroup {
-  display: inline;
+  display: block;
   gap: 12px;
   float: right;
 }
 
-.Btn_text {
+button {
   border: none;
   background-color: rgba(0,0,0,0);
-  color: #212121;
+  color: #e5e5e5;
+  font-family: 'inter', sans-serif;
+  font-weight: 200;
+}
+button:hover {
+  color: #ffcb51;
+  cursor: pointer;
 }
 
 .Home_text {
   display: inline-block;
+}
+
+.Square {
+  position: relative;
+  left: 200px;
+  right: 400px;
+  width: 40px;
+  height: 200px;
+  background-color: #e5e5e5;
+  writing-mode: vertical-lr;
+  vertical-align: middle;
+  color: #212121;
+  text-align:justify;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.Square:hover {
+  background: linear-gradient(to bottom, #ffcb51, #ff7151,#ffcb51);
+  background-position: top;
+  background-size: 100% 1100%;
+  cursor: pointer;
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
 }
