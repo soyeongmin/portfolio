@@ -1,5 +1,6 @@
 html {
   background-color: #212121;
+  font-size: 16px;
 }
 
 .App {
@@ -26,6 +27,7 @@ button {
   background-color: rgba(0,0,0,0);
   color: #e5e5e5;
   font-family: 'inter', sans-serif;
+  font-size: 1em;
   font-weight: 200;
 }
 button:hover {
@@ -34,30 +36,41 @@ button:hover {
 }
 
 .Home_text {
-  display: inline-block;
+  display: inline;
+  font-size: 18px;
 }
 
-.Square {
-  position: relative;
-  left: 200px;
-  right: 400px;
-  width: 40px;
+.Shelf {
+  padding: 0 60px 0 60px;
   height: 200px;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  border: 1px solid #e5e5e5;
+  border-style: none none solid;
+}
+
+.Book {
+  position: relative;
+  display: block;
+  height:auto;
+  padding:16px 10px 10px;
   background-color: #e5e5e5;
   writing-mode: vertical-lr;
-  vertical-align: middle;
   color: #212121;
   text-align:justify;
   font-family: poppins;
   font-weight: 600;
 }
 
-.Square:hover {
+.Book:hover {
   background: linear-gradient(to bottom, #ffcb51, #ff7151,#ffcb51);
   background-position: top;
   background-size: 100% 1100%;
   cursor: pointer;
-  animation: animate 2s linear infinite;
+  animation: animate 1.5s linear infinite;
 }
 @keyframes animate {
 

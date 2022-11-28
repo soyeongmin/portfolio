@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'animate.css';
+import Shelf from './Shelf';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <button>contact</button>
         </div>
       </div>
-      <div className='Square' onClick={()=> alert("I'm scoop!")}> Scoop</div>
+      <Shelf/>
     </div>
   );
 }
