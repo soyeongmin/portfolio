@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Jomalone",
+    "duration": "2019.09 - 2019.10",
+    "category": "Infographics",
+    "tags": ["brand", "graphics"]
+  },
+  {
+    "name": "Chair Project",
+    "duration": "2019.10 - 2019.12",
+    "category": "Product design",
+    "tags": ["furniture", "wood"]
+  },
+  {
+    "name": "Blue",
+    "duration": "2020.05 - 2020.06",
+    "category": "Motion graphics",
+    "tags": ["infographics", "aftereffect", "color"]
+  },
+  {
+    "name": "Wave Box",
+    "duration": "2020.07 - 2020.08",
+    "category": "Interactive product design",
+    "tags": ["product", "light", "lamp"]
+  },
+  {
+    "name": "Airbnb Redesign",
+    "duration": "2020.09 - 2020.10",
+    "category": "UXUI",
+    "tags": ["application", "user experience"]
+  },
+  {
+    "name": "Vehicle Voice Relationship",
+    "duration": "2020.10 - 2020.11",
+    "category": "Research",
+    "tags": ["vehicle", "voice assistant"]
+  },
+  {
+    "name": "Online Edu Tool",
+    "duration": "2020.10 - 2020.12",
+    "category": "UXUI",
+    "tags": ["covid19"]
+  },
+  {
+    "name": "Scoop",
+    "duration": "2020.09 - 2020.12",
+    "category": "Service design",
+    "tags": ["education"]
+  },
+  {
+    "name": "MOIM",
+    "duration": "2021.02 - 2021.04",
+    "category": "UXUI",
+    "tags": ["movie", "interaction", "chat"]
+  },
+  {
+    "name": "Little Dust",
+    "duration": "2022.03 - 2022.06",
+    "category": "Mixed media design",
+    "tags": ["projection", "kids"]
+  },
+  {
+    "name": "Personal Quiz",
+    "duration": "2022.05 - 2022.06",
+    "category": "Website",
+    "tags": ["quiz"]
+  }
+]
