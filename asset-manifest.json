@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fb87c78f.css",
-    "main.js": "/portfolio/static/js/main.09af8219.js",
+    "main.js": "/portfolio/static/js/main.cbfe44f8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/PlayfairDisplay-SemiBold.ttf": "/portfolio/static/media/PlayfairDisplay-SemiBold.baf57ba0df5544f5125e.ttf",
     "static/media/PlayfairDisplay-Medium.ttf": "/portfolio/static/media/PlayfairDisplay-Medium.d8afa483b200cadcda26.ttf",
@@ -13,11 +13,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/Scoop.svg": "/portfolio/static/media/Scoop.688b6d4e761aa12fe8ef60c3aaad5a09.svg",
     "main.fb87c78f.css.map": "/portfolio/static/css/main.fb87c78f.css.map",
-    "main.09af8219.js.map": "/portfolio/static/js/main.09af8219.js.map",
+    "main.cbfe44f8.js.map": "/portfolio/static/js/main.cbfe44f8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb87c78f.css",
-    "static/js/main.09af8219.js"
+    "static/js/main.cbfe44f8.js"
   ]
 }
